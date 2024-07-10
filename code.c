@@ -27,5 +27,7 @@ int main(void)
         {
             
         }
+
+        n--;
     }
 }
