@@ -25,7 +25,13 @@ int main(void)
 
         if (A & (1 << (8 * i))) // Check Most Sifnificant Bit  Condition True When MSB is 1
         {
-            
+            Q = Q & 0;
+            A = A + M;
+        }
+
+        else
+        {
+            Q = Q | 1;
         }
 
         n--;
